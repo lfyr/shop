@@ -1,0 +1,14 @@
+[ 2017-01-07T13:14:01+08:00 ] 127.0.0.1 /index.php/Home/Comment/ajaxGetComment/p/1/goods_id/46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\we\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_comment` [ RunTime:0.0031s ]
+SQL: SELECT a.*,b.email,b.face FROM wx_comment a LEFT JOIN wx_member b on a.member_id=b.id  WHERE a.goods_id = '46' ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000842s ]
+

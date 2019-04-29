@@ -1,0 +1,6 @@
+[ 2016-12-28T09:00:08+08:00 ] 127.0.0.1 /index.php/jquery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+ERR: 无法加载模块:Jquery
+

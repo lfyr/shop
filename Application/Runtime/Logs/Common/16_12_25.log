@@ -1,0 +1,18 @@
+[ 2016-12-25T14:02:50+08:00 ] 127.0.0.1 /index.php/userhome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+ERR: 无法加载模块:Userhome
+
+[ 2016-12-25T14:02:54+08:00 ] 127.0.0.1 /index.php/shopcart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+ERR: 无法加载模块:Shopcart
+
+[ 2016-12-25T15:05:01+08:00 ] 127.0.0.1 /index.php/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+ERR: 无法加载模块:Category
+

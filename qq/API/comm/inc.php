@@ -1,0 +1,2 @@
+<?php die('forbidden'); ?>
+{"appid":"976258825","appkey":"love123","callback":"www.redreambj.com/index.php/Home/Member/qqlogin","errorReport":true,"storageType":"file","host":"localhost","user":"root","password":"root","database":"test","scope":null}

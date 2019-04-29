@@ -1,0 +1,34 @@
+/* 错误提示 */
+.error{ display:none;position:fixed;top:-22%;left:0;width:100%;height:100%;z-index:98;  margin: 0 auto;}
+.error div{display:table;color:white;font-size:14px;width:100%;height:100%;}
+.error div p{display:table-cell;text-align:center;vertical-align:middle;}
+.error div p span{display:inline-block;padding:1.5rem 3.5rem;margin:0 1rem;border-radius:.25rem;background-color:rgba(117, 117, 117, 0.8);color: #ffffff;}
+
+
+
+/** 全局控件(遮罩，弹窗等) **/
+/*
+ * loading
+ * 结构：<section class="loading"></section>
+  */
+.loading{
+		position:fixed;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+		-webkit-animation:monkey_ani .5s steps(1) infinite;
+		background-image:url(../images/loading2.png);
+		background-repeat:no-repeat;
+		background-position:center center;
+		background-size:7.65rem 6.65rem;
+		z-index:999;
+		display: none;
+	}
+	
+@-webkit-keyframes monkey_ani{
+    0%{background-image:url(../images/loading1.png);}
+    33%{background-image:url(../images/loading2.png);}
+    66%{background-image:url(../images/loading3.png);}
+    100%{background-image:url(../images/loading1.png);}
+}

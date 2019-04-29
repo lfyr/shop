@@ -1,0 +1,14 @@
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/datepicker/jquery-ui-1.9.2.custom.min.css">
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/datepicker/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/datepicker/jquery-ui-1.9.2.custom.min.js"> </script>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/datepicker/datepicker_zh-cn.js"></script>
+
+
+
+
+
+
+<script type="text/javascript">
+    $("#start_time").datepicker({ dateFormat: "yy-mm-dd" });
+    $("#end_time").datepicker({ dateFormat: "yy-mm-dd" });
+</script>

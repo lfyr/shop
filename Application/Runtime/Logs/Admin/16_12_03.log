@@ -1,0 +1,10 @@
+[ 2016-12-03T12:08:54+08:00 ] 127.0.0.1 /index.php/Admin/Goods/ajaxLogoUpload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\we\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Goods" and action_name="ajaxLogoUpload" [ RunTime:0.0837s ]
+

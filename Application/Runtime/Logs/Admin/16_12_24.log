@@ -1,0 +1,1314 @@
+[ 2016-12-24T11:28:22+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\we\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Goods" and action_name="lst" [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wx_goods a WHERE `is_delete` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM wx_goods a WHERE `is_delete` = 0 LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008390s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008465s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000859s ]
+
+[ 2016-12-24T11:28:30+08:00 ] 127.0.0.1 /index.php/Admin/Goods/edit/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\we\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Goods" and action_name="edit" [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `wx_goods` WHERE `id` = 46 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_category`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_type` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `wx_type`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_goods_pics` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `wx_goods_pics` WHERE `goods_id` = 46  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_goods_attr` [ RunTime:0.0029s ]
+SQL: SELECT a.*,b.attr_name,b.attr_type,b.attr_option_values FROM wx_goods_attr a LEFT JOIN wx_attribute b ON a.attr_id=b.id  WHERE a.goods_id = '46' ORDER BY a.attr_id ASC  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wx_attribute` [ RunTime:0.0029s ]
+SQL: SELECT id attr_id,`attr_name`,`attr_type`,`attr_option_values` FROM `wx_attribute` WHERE `type_id` = '1' AND `id` NOT IN ('5','6','9','10','11','12')  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011204s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011277s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000569s ]
+
+[ 2016-12-24T15:16:32+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\we\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Goods" and action_name="lst" [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wx_goods a WHERE `is_delete` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM wx_goods a WHERE `is_delete` = 0 LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008459s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000558s ]
+
+[ 2016-12-24T15:16:46+08:00 ] 127.0.0.1 /index.php/Admin/Attention/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\we\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Attention" and action_name="index" [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `wx_attention` [ RunTime:0.0157s ]
+SQL: SELECT * FROM `wx_attention` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005628s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005703s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2016-12-24T15:16:47+08:00 ] 127.0.0.1 /index.php/Admin/Keyword/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\we\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Keyword" and action_name="lst" [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_keyword` [ RunTime:0.0035s ]
+NOTIC: [8] Undefined variable: where D:\we\Application\Admin\Model\KeywordModel.class.php 第 35 行.
+SQL: SELECT COUNT(*) AS tp_count FROM wx_keyword a LIMIT 1   [ RunTime:0.0237s ]
+NOTIC: [8] Undefined variable: where D:\we\Application\Admin\Model\KeywordModel.class.php 第 41 行.
+SQL: SELECT * FROM wx_keyword a LIMIT 0,2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006707s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000565s ]
+
+[ 2016-12-24T15:16:52+08:00 ] 127.0.0.1 /index.php/Admin/Keyword/lst/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\we\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Keyword" and action_name="lst" [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_keyword` [ RunTime:0.0041s ]
+NOTIC: [8] Undefined variable: where D:\we\Application\Admin\Model\KeywordModel.class.php 第 35 行.
+SQL: SELECT COUNT(*) AS tp_count FROM wx_keyword a LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where D:\we\Application\Admin\Model\KeywordModel.class.php 第 41 行.
+SQL: SELECT * FROM wx_keyword a LIMIT 2,2   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000620s ]
+
+[ 2016-12-24T15:16:54+08:00 ] 127.0.0.1 /index.php/Admin/Keyword/lst/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\we\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Keyword" and action_name="lst" [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_keyword` [ RunTime:0.0146s ]
+NOTIC: [8] Undefined variable: where D:\we\Application\Admin\Model\KeywordModel.class.php 第 35 行.
+SQL: SELECT COUNT(*) AS tp_count FROM wx_keyword a LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where D:\we\Application\Admin\Model\KeywordModel.class.php 第 41 行.
+SQL: SELECT * FROM wx_keyword a LIMIT 0,2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081520s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000785s ]
+
+[ 2016-12-24T15:16:59+08:00 ] 127.0.0.1 /index.php/Admin/Attention/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\we\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Attention" and action_name="index" [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_attention` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_attention` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005653s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005764s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000653s ]
+
+[ 2016-12-24T15:17:00+08:00 ] 127.0.0.1 /index.php/Admin/Keyword/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\we\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Keyword" and action_name="lst" [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_keyword` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\we\Application\Admin\Model\KeywordModel.class.php 第 35 行.
+SQL: SELECT COUNT(*) AS tp_count FROM wx_keyword a LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: where D:\we\Application\Admin\Model\KeywordModel.class.php 第 41 行.
+SQL: SELECT * FROM wx_keyword a LIMIT 0,2   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006374s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006445s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000692s ]
+
+[ 2016-12-24T15:17:00+08:00 ] 127.0.0.1 /index.php/Admin/Index/info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\we\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `wx_config` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006959s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007034s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2016-12-24T15:17:01+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\we\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Goods" and action_name="lst" [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wx_goods a WHERE `is_delete` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM wx_goods a WHERE `is_delete` = 0 LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007751s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000586s ]
+
+[ 2016-12-24T15:17:03+08:00 ] 127.0.0.1 /index.php/Admin/Role/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\we\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Role" and action_name="lst" [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Admin\Model\RoleModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\we\Application\Admin\Model\RoleModel.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `wx_role` [ RunTime:0.0041s ]
+NOTIC: [8] Undefined variable: where D:\we\Application\Admin\Model\RoleModel.class.php 第 67 行.
+SQL: SELECT COUNT(*) AS tp_count FROM wx_role a LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: where D:\we\Application\Admin\Model\RoleModel.class.php 第 74 行.
+SQL: SELECT a.*,GROUP_CONCAT(c.pri_name) pri_name FROM wx_role a left join wx_role_privilege b on a.id=b.role_id left join wx_privilege c on b.pri_id=c.id  GROUP BY a.id LIMIT 0,2   [ RunTime:0.0227s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000274s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009822s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000922s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000993s ]
+
+[ 2016-12-24T15:17:12+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\we\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Privilege" and action_name="lst" [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wx_privilege` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `wx_privilege`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+NOTIC: [8] Undefined variable: page D:\we\Application\Runtime\Cache\Admin\1c990affb7d51d2df56dce018d5c78a2.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017021s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000634s ]
+
+[ 2016-12-24T15:17:13+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\we\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Admin" and action_name="lst" [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wx_admin` [ RunTime:0.0033s ]
+NOTIC: [8] Undefined variable: where D:\we\Application\Admin\Model\AdminModel.class.php 第 125 行.
+SQL: SELECT COUNT(*) AS tp_count FROM wx_admin a LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where D:\we\Application\Admin\Model\AdminModel.class.php 第 131 行.
+SQL: SELECT * FROM wx_admin a LIMIT 0,2   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006661s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000578s ]
+
+[ 2016-12-24T15:17:20+08:00 ] 127.0.0.1 /index.php/Admin/Admin/del/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\we\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Admin" and action_name="del" [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_admin` [ RunTime:0.0033s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005435s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000401s ]
+
+[ 2016-12-24T15:17:25+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001021s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\we\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Goods" and action_name="lst" [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wx_goods a WHERE `is_delete` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM wx_goods a WHERE `is_delete` = 0 LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008289s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000611s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000674s ]
+
+[ 2016-12-24T16:43:33+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/60/goods_name/5555.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\we\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Goods" and action_name="goods_number" [ RunTime:0.0005s ]
+SQL: SELECT a.*,b.attr_name FROM wx_goods_attr a LEFT JOIN wx_attribute b on a.attr_id=b.id WHERE attr_id IN (SELECT attr_id FROM wx_goods_attr WHERE goods_id=60 GROUP BY attr_id HAVING count(*)>1)  AND a.goods_id=60 [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wx_goods_number` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `wx_goods_number` WHERE `goods_id` = '60'  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Undefined variable: v0 D:\we\Application\Runtime\Cache\Admin\2748f9ade8e602b7f92c24038866ded6.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007470s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000679s ]
+
+[ 2016-12-24T16:43:40+08:00 ] 127.0.0.1 /index.php/Admin/Type/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001177s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\we\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Type" and action_name="lst" [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_type` [ RunTime:0.0037s ]
+NOTIC: [8] Undefined variable: where D:\we\Application\Admin\Model\TypeModel.class.php 第 41 行.
+SQL: SELECT COUNT(*) AS tp_count FROM wx_type a LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: where D:\we\Application\Admin\Model\TypeModel.class.php 第 47 行.
+SQL: SELECT * FROM wx_type a LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007526s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007609s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000612s ]
+
+[ 2016-12-24T16:43:41+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000986s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001454s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\we\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Goods" and action_name="lst" [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wx_goods a WHERE `is_delete` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM wx_goods a WHERE `is_delete` = 0 LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010279s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010379s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000792s ]
+
+[ 2016-12-24T16:43:50+08:00 ] 127.0.0.1 /index.php/Admin/Goods/edit/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\we\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Goods" and action_name="edit" [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `wx_goods` WHERE `id` = 46 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_category` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `wx_category`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `wx_type` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `wx_type`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `wx_goods_pics` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `wx_goods_pics` WHERE `goods_id` = 46  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_goods_attr` [ RunTime:0.0032s ]
+SQL: SELECT a.*,b.attr_name,b.attr_type,b.attr_option_values FROM wx_goods_attr a LEFT JOIN wx_attribute b ON a.attr_id=b.id  WHERE a.goods_id = '46' ORDER BY a.attr_id ASC  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wx_attribute` [ RunTime:0.0029s ]
+SQL: SELECT id attr_id,`attr_name`,`attr_type`,`attr_option_values` FROM `wx_attribute` WHERE `type_id` = '1' AND `id` NOT IN ('5','6','9','10','11','12')  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011651s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011729s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000904s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001020s ]
+
+[ 2016-12-24T16:58:08+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\we\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Goods" and action_name="lst" [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wx_goods a WHERE `is_delete` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM wx_goods a WHERE `is_delete` = 0 LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008714s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000715s ]
+
+[ 2016-12-24T17:11:32+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\we\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Goods" and action_name="lst" [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wx_goods a WHERE `is_delete` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM wx_goods a WHERE `is_delete` = 0 LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008517s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008587s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2016-12-24T17:11:33+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\we\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Goods" and action_name="lst" [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wx_goods a WHERE `is_delete` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM wx_goods a WHERE `is_delete` = 0 LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008307s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000633s ]
+
+[ 2016-12-24T17:11:53+08:00 ] 127.0.0.1 /index.php/Admin/Goods/recyclelst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\we\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Goods" and action_name="recyclelst" [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wx_goods a WHERE `is_delete` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM wx_goods a WHERE `is_delete` = 1 LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007112s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007197s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000618s ]
+
+[ 2016-12-24T17:11:55+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\we\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Goods" and action_name="lst" [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wx_goods a WHERE `is_delete` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM wx_goods a WHERE `is_delete` = 0 LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008091s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2016-12-24T17:11:55+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\we\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Goods" and action_name="add" [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_category` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `wx_category`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_type` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `wx_type`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008591s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008665s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000661s ]
+
+[ 2016-12-24T17:11:59+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\we\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Goods" and action_name="add" [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0035s ]
+NOTIC: [8] Undefined index: validate D:\we\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: is_delete D:\we\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: auto D:\we\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `wx_goods` (`goods_name`,`cat_id`,`shop_price`,`is_hot`,`is_new`,`is_best`,`is_on_sale`,`seo_keyword`,`seo_description`,`sort_num`,`goods_desc`,`type_id`,`addtime`) VALUES ('EWE','1','0.00','1','1','1','1','','','100','','0','1482570719') [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: pics D:\we\Application\Common\Common\function.php 第 73 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\we\Application\Common\Common\function.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005536s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000504s ]
+
+[ 2016-12-24T17:12:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\we\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Goods" and action_name="lst" [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wx_goods a WHERE `is_delete` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM wx_goods a WHERE `is_delete` = 0 LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008342s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008408s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000655s ]
+
+[ 2016-12-24T17:12:55+08:00 ] 127.0.0.1 /index.php/Admin/Goods/recycle/id/61.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\we\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Goods" and action_name="recycle" [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0034s ]
+NOTIC: [8] Undefined index: type_id D:\we\Application\Admin\Model\GoodsModel.class.php 第 122 行.
+SQL: UPDATE `wx_goods` SET `is_delete`='1' WHERE `id` = '61' [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: pics D:\we\Application\Common\Common\function.php 第 73 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\we\Application\Common\Common\function.php 第 73 行.
+SQL: SHOW COLUMNS FROM `wx_goods_attr` [ RunTime:0.0028s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\we\Application\Admin\Model\GoodsModel.class.php 第 224 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006105s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000443s ]
+
+[ 2016-12-24T17:12:56+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\we\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Goods" and action_name="lst" [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wx_goods a WHERE `is_delete` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM wx_goods a WHERE `is_delete` = 0 LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008541s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008619s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000614s ]
+
+[ 2016-12-24T17:42:14+08:00 ] 127.0.0.1 /index.php/Admin/Goods/edit/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\we\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Goods" and action_name="edit" [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `wx_goods` WHERE `id` = 46 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_category`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `wx_type` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `wx_type`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_goods_pics` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `wx_goods_pics` WHERE `goods_id` = 46  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_goods_attr` [ RunTime:0.0035s ]
+SQL: SELECT a.*,b.attr_name,b.attr_type,b.attr_option_values FROM wx_goods_attr a LEFT JOIN wx_attribute b ON a.attr_id=b.id  WHERE a.goods_id = '46' ORDER BY a.attr_id ASC  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wx_attribute` [ RunTime:0.0033s ]
+SQL: SELECT id attr_id,`attr_name`,`attr_type`,`attr_option_values` FROM `wx_attribute` WHERE `type_id` = '1' AND `id` NOT IN ('5','6','9','10','11','12')  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011340s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000586s ]
+
+[ 2016-12-24T17:42:48+08:00 ] 127.0.0.1 /index.php/Admin/Goods/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\we\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Goods" and action_name="edit" [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0039s ]
+NOTIC: [8] Undefined index: validate D:\we\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: is_delete D:\we\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: auto D:\we\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\we\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `wx_goods` SET `goods_name`='Apple iPhone 7 (A1660) 32G 玫瑰金色 移动联通电信4G手机',`cat_id`='10',`shop_price`='5388.00',`is_hot`='1',`is_new`='1',`is_best`='1',`is_on_sale`='1',`seo_keyword`='AppleiPhone7,AppleiPhone7,AppleiPhone7报价,AppleiPhone7报价',`seo_description`='优特网提供AppleiPhone7正品行货，全国价格最低，并包括AppleiPhone7网购指南，以及AppleiPhone7图片、iPhone7参数、iPhone7评论、iPhone7心得、iPhone7技巧等信息',`sort_num`='100',`goods_desc`='',`type_id`='1',`logo`='Admin/2016-12-24/585e431848fbe.jpg',`sm_logo`='Admin/2016-12-24/thumb_0_585e431848fbe.jpg' WHERE `id` = 46 [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: pics D:\we\Application\Common\Common\function.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\we\Application\Common\Common\function.php 第 76 行.
+SQL: SHOW COLUMNS FROM `wx_goods_attr` [ RunTime:0.0036s ]
+SQL: UPDATE `wx_goods_attr` SET `attr_value`='时尚4G' WHERE `id` = 19 [ RunTime:0.0004s ]
+SQL: UPDATE `wx_goods_attr` SET `attr_value`='土豪金',`attr_price`='150.00' WHERE `id` = 20 [ RunTime:0.0002s ]
+SQL: UPDATE `wx_goods_attr` SET `attr_value`='冰川银',`attr_price`='200.00' WHERE `id` = 28 [ RunTime:0.0002s ]
+SQL: UPDATE `wx_goods_attr` SET `attr_value`='5.0' WHERE `id` = 21 [ RunTime:0.0002s ]
+SQL: UPDATE `wx_goods_attr` SET `attr_value`='触控' WHERE `id` = 22 [ RunTime:0.0002s ]
+SQL: UPDATE `wx_goods_attr` SET `attr_value`='32g',`attr_price`='100.00' WHERE `id` = 27 [ RunTime:0.0002s ]
+SQL: UPDATE `wx_goods_attr` SET `attr_value`='64g',`attr_price`='200.00' WHERE `id` = 39 [ RunTime:0.0002s ]
+SQL: UPDATE `wx_goods_attr` SET `attr_value`='ios' WHERE `id` = 26 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006069s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006154s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000470s ]
+
+[ 2016-12-24T17:42:49+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\we\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Goods" and action_name="lst" [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wx_goods a WHERE `is_delete` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM wx_goods a WHERE `is_delete` = 0 LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008273s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000634s ]
+
+[ 2016-12-24T17:47:52+08:00 ] 127.0.0.1 /index.php/Admin/Goods/edit/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\we\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Goods" and action_name="edit" [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `wx_goods` WHERE `id` = 46 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_category` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `wx_category`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `wx_type` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `wx_type`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `wx_goods_pics` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `wx_goods_pics` WHERE `goods_id` = 46  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_goods_attr` [ RunTime:0.0031s ]
+SQL: SELECT a.*,b.attr_name,b.attr_type,b.attr_option_values FROM wx_goods_attr a LEFT JOIN wx_attribute b ON a.attr_id=b.id  WHERE a.goods_id = '46' ORDER BY a.attr_id ASC  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wx_attribute` [ RunTime:0.0030s ]
+SQL: SELECT id attr_id,`attr_name`,`attr_type`,`attr_option_values` FROM `wx_attribute` WHERE `type_id` = '1' AND `id` NOT IN ('5','6','9','10','11','12')  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011144s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011224s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000657s ]
+
+[ 2016-12-24T17:47:57+08:00 ] 127.0.0.1 /index.php/Admin/Goods/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\we\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Goods" and action_name="edit" [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0039s ]
+NOTIC: [8] Undefined index: validate D:\we\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: is_delete D:\we\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: auto D:\we\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\we\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `wx_goods` SET `goods_name`='Apple iPhone 7 (A1660) 32G 玫瑰金色 移动联通电信4G手机',`cat_id`='10',`shop_price`='5388.00',`is_hot`='1',`is_new`='1',`is_best`='1',`is_on_sale`='1',`seo_keyword`='AppleiPhone7,AppleiPhone7,AppleiPhone7报价,AppleiPhone7报价',`seo_description`='优特网提供AppleiPhone7正品行货，全国价格最低，并包括AppleiPhone7网购指南，以及AppleiPhone7图片、iPhone7参数、iPhone7评论、iPhone7心得、iPhone7技巧等信息',`sort_num`='100',`goods_desc`='',`type_id`='1',`logo`='Admin/2016-12-24/585e444d18aa4.jpg',`sm_logo`='Admin/2016-12-24/thumb_0_585e444d18aa4.jpg' WHERE `id` = 46 [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: pics D:\we\Application\Common\Common\function.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\we\Application\Common\Common\function.php 第 76 行.
+SQL: SHOW COLUMNS FROM `wx_goods_attr` [ RunTime:0.0034s ]
+SQL: UPDATE `wx_goods_attr` SET `attr_value`='时尚4G' WHERE `id` = 19 [ RunTime:0.0004s ]
+SQL: UPDATE `wx_goods_attr` SET `attr_value`='土豪金',`attr_price`='150.00' WHERE `id` = 20 [ RunTime:0.0002s ]
+SQL: UPDATE `wx_goods_attr` SET `attr_value`='冰川银',`attr_price`='200.00' WHERE `id` = 28 [ RunTime:0.0002s ]
+SQL: UPDATE `wx_goods_attr` SET `attr_value`='5.0' WHERE `id` = 21 [ RunTime:0.0002s ]
+SQL: UPDATE `wx_goods_attr` SET `attr_value`='触控' WHERE `id` = 22 [ RunTime:0.0002s ]
+SQL: UPDATE `wx_goods_attr` SET `attr_value`='32g',`attr_price`='100.00' WHERE `id` = 27 [ RunTime:0.0002s ]
+SQL: UPDATE `wx_goods_attr` SET `attr_value`='64g',`attr_price`='200.00' WHERE `id` = 39 [ RunTime:0.0001s ]
+SQL: UPDATE `wx_goods_attr` SET `attr_value`='ios' WHERE `id` = 26 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000498s ]
+
+[ 2016-12-24T17:47:58+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\we\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Goods" and action_name="lst" [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wx_goods a WHERE `is_delete` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM wx_goods a WHERE `is_delete` = 0 LIMIT 0,5   [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008551s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000562s ]
+
+[ 2016-12-24T17:48:59+08:00 ] 127.0.0.1 /index.php/Admin/Goods/edit/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\we\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Goods" and action_name="edit" [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `wx_goods` WHERE `id` = 46 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_category` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `wx_category`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `wx_type` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `wx_type`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `wx_goods_pics` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `wx_goods_pics` WHERE `goods_id` = 46  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_goods_attr` [ RunTime:0.0032s ]
+SQL: SELECT a.*,b.attr_name,b.attr_type,b.attr_option_values FROM wx_goods_attr a LEFT JOIN wx_attribute b ON a.attr_id=b.id  WHERE a.goods_id = '46' ORDER BY a.attr_id ASC  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wx_attribute` [ RunTime:0.0040s ]
+SQL: SELECT id attr_id,`attr_name`,`attr_type`,`attr_option_values` FROM `wx_attribute` WHERE `type_id` = '1' AND `id` NOT IN ('5','6','9','10','11','12')  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010889s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010971s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000589s ]
+
+[ 2016-12-24T17:49:03+08:00 ] 127.0.0.1 /index.php/Admin/Goods/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\we\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Goods" and action_name="edit" [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0031s ]
+NOTIC: [8] Undefined index: validate D:\we\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: is_delete D:\we\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: auto D:\we\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\we\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `wx_goods` SET `goods_name`='Apple iPhone 7 (A1660) 32G 玫瑰金色 移动联通电信4G手机',`cat_id`='10',`shop_price`='5388.00',`is_hot`='1',`is_new`='1',`is_best`='1',`is_on_sale`='1',`seo_keyword`='AppleiPhone7,AppleiPhone7,AppleiPhone7报价,AppleiPhone7报价',`seo_description`='优特网提供AppleiPhone7正品行货，全国价格最低，并包括AppleiPhone7网购指南，以及AppleiPhone7图片、iPhone7参数、iPhone7评论、iPhone7心得、iPhone7技巧等信息',`sort_num`='100',`goods_desc`='',`type_id`='1',`logo`='Admin/2016-12-24/585e448fcaab3.jpg',`sm_logo`='Admin/2016-12-24/thumb_0_585e448fcaab3.jpg' WHERE `id` = 46 [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: pics D:\we\Application\Common\Common\function.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\we\Application\Common\Common\function.php 第 76 行.
+SQL: SHOW COLUMNS FROM `wx_goods_attr` [ RunTime:0.0033s ]
+SQL: UPDATE `wx_goods_attr` SET `attr_value`='时尚4G' WHERE `id` = 19 [ RunTime:0.0003s ]
+SQL: UPDATE `wx_goods_attr` SET `attr_value`='土豪金',`attr_price`='150.00' WHERE `id` = 20 [ RunTime:0.0002s ]
+SQL: UPDATE `wx_goods_attr` SET `attr_value`='冰川银',`attr_price`='200.00' WHERE `id` = 28 [ RunTime:0.0002s ]
+SQL: UPDATE `wx_goods_attr` SET `attr_value`='5.0' WHERE `id` = 21 [ RunTime:0.0002s ]
+SQL: UPDATE `wx_goods_attr` SET `attr_value`='触控' WHERE `id` = 22 [ RunTime:0.0001s ]
+SQL: UPDATE `wx_goods_attr` SET `attr_value`='32g',`attr_price`='100.00' WHERE `id` = 27 [ RunTime:0.0002s ]
+SQL: UPDATE `wx_goods_attr` SET `attr_value`='64g',`attr_price`='200.00' WHERE `id` = 39 [ RunTime:0.0001s ]
+SQL: UPDATE `wx_goods_attr` SET `attr_value`='ios' WHERE `id` = 26 [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005632s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000456s ]
+
+[ 2016-12-24T17:49:05+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\we\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Goods" and action_name="lst" [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wx_goods a WHERE `is_delete` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM wx_goods a WHERE `is_delete` = 0 LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009293s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009385s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000609s ]
+
+[ 2016-12-24T17:50:46+08:00 ] 127.0.0.1 /index.php/Admin/Goods/edit/id/45.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\we\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Goods" and action_name="edit" [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `wx_goods` WHERE `id` = 45 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_category` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `wx_category`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `wx_type` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `wx_type`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `wx_goods_pics` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `wx_goods_pics` WHERE `goods_id` = 45  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_goods_attr` [ RunTime:0.0035s ]
+SQL: SELECT a.*,b.attr_name,b.attr_type,b.attr_option_values FROM wx_goods_attr a LEFT JOIN wx_attribute b ON a.attr_id=b.id  WHERE a.goods_id = '45' ORDER BY a.attr_id ASC  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wx_attribute` [ RunTime:0.0032s ]
+SQL: SELECT id attr_id,`attr_name`,`attr_type`,`attr_option_values` FROM `wx_attribute` WHERE `type_id` = '1' AND `id` NOT IN ('5','6','9','10','12')  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Undefined index: id D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 176 行.
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Undefined index: id D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Undefined index: attr_value D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Undefined index: attr_value D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Undefined index: attr_value D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Undefined index: attr_value D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Undefined index: attr_price D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 184 行.
+NOTIC: [8] Undefined index: id D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 184 行.
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010705s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000555s ]
+
+[ 2016-12-24T17:50:50+08:00 ] 127.0.0.1 /index.php/Admin/Goods/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\we\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Goods" and action_name="edit" [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0031s ]
+NOTIC: [8] Undefined index: validate D:\we\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: is_delete D:\we\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: auto D:\we\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\we\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `wx_goods` SET `goods_name`='小米Note2 全网通 标准版 4GB内存 64GB ROM 亮黑色 4G手机',`cat_id`='9',`shop_price`='2799.00',`is_hot`='1',`is_new`='1',`is_best`='1',`is_on_sale`='1',`seo_keyword`='',`seo_description`='',`sort_num`='100',`goods_desc`='',`type_id`='1',`logo`='Admin/2016-12-24/585e44fa5358c.jpg',`sm_logo`='Admin/2016-12-24/thumb_0_585e44fa5358c.jpg' WHERE `id` = 45 [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: pics D:\we\Application\Common\Common\function.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\we\Application\Common\Common\function.php 第 76 行.
+SQL: SHOW COLUMNS FROM `wx_goods_attr` [ RunTime:0.0038s ]
+SQL: UPDATE `wx_goods_attr` SET `attr_value`='时尚4G' WHERE `id` = 15 [ RunTime:0.0003s ]
+SQL: UPDATE `wx_goods_attr` SET `attr_value`='玫瑰金',`attr_price`='200.00' WHERE `id` = 42 [ RunTime:0.0002s ]
+SQL: UPDATE `wx_goods_attr` SET `attr_value`='冰川银',`attr_price`='200.00' WHERE `id` = 16 [ RunTime:0.0002s ]
+SQL: UPDATE `wx_goods_attr` SET `attr_value`='5.0' WHERE `id` = 17 [ RunTime:0.0002s ]
+SQL: UPDATE `wx_goods_attr` SET `attr_value`='触控' WHERE `id` = 18 [ RunTime:0.0002s ]
+SQL: UPDATE `wx_goods_attr` SET `attr_value`='安卓' WHERE `id` = 35 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005596s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005668s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000425s ]
+
+[ 2016-12-24T17:50:51+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\we\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Goods" and action_name="lst" [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wx_goods a WHERE `is_delete` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM wx_goods a WHERE `is_delete` = 0 LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007488s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007556s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000632s ]
+
+[ 2016-12-24T17:50:53+08:00 ] 127.0.0.1 /index.php/Admin/Goods/edit/id/44.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\we\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Goods" and action_name="edit" [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `wx_goods` WHERE `id` = 44 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_category` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `wx_category`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `wx_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_type`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `wx_goods_pics` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_goods_pics` WHERE `goods_id` = 44  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wx_goods_attr` [ RunTime:0.0030s ]
+SQL: SELECT a.*,b.attr_name,b.attr_type,b.attr_option_values FROM wx_goods_attr a LEFT JOIN wx_attribute b ON a.attr_id=b.id  WHERE a.goods_id = '44' ORDER BY a.attr_id ASC  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wx_attribute` [ RunTime:0.0037s ]
+SQL: SELECT id attr_id,`attr_name`,`attr_type`,`attr_option_values` FROM `wx_attribute` WHERE `type_id` = '1' AND `id` NOT IN ('5','6','9','10','11','12')  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+NOTIC: [8] Use of undefined constant ga - assumed 'ga' D:\we\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 181 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010435s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000481s ]
+
+[ 2016-12-24T17:51:03+08:00 ] 127.0.0.1 /index.php/Admin/Goods/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\we\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Goods" and action_name="edit" [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0041s ]
+NOTIC: [8] Undefined index: validate D:\we\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: is_delete D:\we\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: auto D:\we\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\we\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `wx_goods` SET `goods_name`='三星 Galaxy S7（G9300）4GB+32G 铂光金',`cat_id`='13',`shop_price`='3588.00',`is_hot`='1',`is_new`='1',`is_best`='1',`is_on_sale`='1',`seo_keyword`='',`seo_description`='',`sort_num`='100',`goods_desc`='',`type_id`='1',`logo`='Admin/2016-12-24/585e450758dae.jpg',`sm_logo`='Admin/2016-12-24/thumb_0_585e450758dae.jpg' WHERE `id` = 44 [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: pics D:\we\Application\Common\Common\function.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\we\Application\Common\Common\function.php 第 76 行.
+SQL: SHOW COLUMNS FROM `wx_goods_attr` [ RunTime:0.0033s ]
+SQL: UPDATE `wx_goods_attr` SET `attr_value`='时尚4G' WHERE `id` = 8 [ RunTime:0.0003s ]
+SQL: UPDATE `wx_goods_attr` SET `attr_value`='冰川银',`attr_price`='200.00' WHERE `id` = 12 [ RunTime:0.0002s ]
+SQL: UPDATE `wx_goods_attr` SET `attr_value`='土豪金',`attr_price`='50.00' WHERE `id` = 11 [ RunTime:0.0002s ]
+SQL: UPDATE `wx_goods_attr` SET `attr_value`='玫瑰金',`attr_price`='100.00' WHERE `id` = 9 [ RunTime:0.0002s ]
+SQL: UPDATE `wx_goods_attr` SET `attr_value`='5.0' WHERE `id` = 13 [ RunTime:0.0002s ]
+SQL: UPDATE `wx_goods_attr` SET `attr_value`='触控' WHERE `id` = 14 [ RunTime:0.0002s ]
+SQL: UPDATE `wx_goods_attr` SET `attr_value`='32g',`attr_price`='0.00' WHERE `id` = 37 [ RunTime:0.0002s ]
+SQL: UPDATE `wx_goods_attr` SET `attr_value`='安卓' WHERE `id` = 36 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005493s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000448s ]
+
+[ 2016-12-24T17:51:04+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\we\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Goods" and action_name="lst" [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wx_goods a WHERE `is_delete` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM wx_goods a WHERE `is_delete` = 0 LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007653s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007726s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000580s ]
+
