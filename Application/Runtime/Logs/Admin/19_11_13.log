@@ -1,0 +1,1599 @@
+[ 2019-11-13T15:31:46+08:00 ] 127.0.0.1 /index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001251s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2019-11-13T15:31:46+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006414s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000637s ]
+
+[ 2019-11-13T15:31:46+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000887s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001995s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001897s ]
+
+[ 2019-11-13T15:31:54+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001879s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_admin` [ RunTime:0.0196s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007388s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000465s ]
+
+[ 2019-11-13T15:31:57+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009054s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001079s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001425s ]
+
+[ 2019-11-13T15:32:02+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkcode.html?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001986s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002086s ]
+
+[ 2019-11-13T15:32:04+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkcode.html??
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001254s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000723s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000767s ]
+
+[ 2019-11-13T15:32:08+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_admin` [ RunTime:0.0096s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005920s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000445s ]
+
+[ 2019-11-13T15:32:10+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001226s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005221s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000743s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000778s ]
+
+[ 2019-11-13T15:32:10+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001408s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002144s ]
+
+[ 2019-11-13T15:32:15+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkcode.html?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001194s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002225s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002339s ]
+
+[ 2019-11-13T15:32:16+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkcode.html??
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000916s ]
+
+[ 2019-11-13T15:32:18+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkcode.html???
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000988s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000733s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000770s ]
+
+[ 2019-11-13T15:32:23+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001218s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_admin` [ RunTime:0.0105s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007594s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007634s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000773s ]
+
+[ 2019-11-13T15:32:27+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001217s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009118s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000989s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001055s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001237s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001297s ]
+
+[ 2019-11-13T15:32:27+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002253s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001452s ]
+
+[ 2019-11-13T15:32:31+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000345s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007876s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000713s ]
+
+[ 2019-11-13T15:32:31+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000843s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001166s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003441s ]
+
+[ 2019-11-13T15:32:37+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkcode.html?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000880s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000783s ]
+
+[ 2019-11-13T15:32:38+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkcode.html??
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000740s ]
+
+[ 2019-11-13T15:32:38+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkcode.html???
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000748s ]
+
+[ 2019-11-13T15:32:38+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkcode.html????
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000713s ]
+
+[ 2019-11-13T15:32:38+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkcode.html?????
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000706s ]
+
+[ 2019-11-13T15:32:46+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001393s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_admin` [ RunTime:0.0124s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007103s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000610s ]
+
+[ 2019-11-13T15:32:49+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001378s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011089s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000938s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001095s ]
+
+[ 2019-11-13T15:34:52+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000946s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001855s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_admin` [ RunTime:0.0649s ]
+
+[ 2019-11-13T15:34:53+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009810s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000908s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001180s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001225s ]
+
+[ 2019-11-13T15:34:56+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkcode.html?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001197s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001542s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001617s ]
+
+[ 2019-11-13T15:34:57+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkcode.html??
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000918s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000964s ]
+
+[ 2019-11-13T15:35:19+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001332s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_admin` [ RunTime:0.0111s ]
+
+[ 2019-11-13T15:37:06+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_admin` [ RunTime:0.0084s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006276s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006333s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000755s ]
+
+[ 2019-11-13T15:37:09+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001822s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014198s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001904s ]
+
+[ 2019-11-13T15:37:09+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001062s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2019-11-13T15:37:15+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002283s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_admin` [ RunTime:0.0126s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005832s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005868s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000681s ]
+
+[ 2019-11-13T15:37:18+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000891s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001200s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011547s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000644s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000668s ]
+
+[ 2019-11-13T15:37:18+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001247s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2019-11-13T15:37:19+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkcode.html?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000863s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001747s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2019-11-13T15:37:25+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkcode.html??
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000837s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001501s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2019-11-13T15:37:34+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkcode.html???
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001141s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001125s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001199s ]
+
+[ 2019-11-13T15:37:36+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkcode.html????
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001703s ]
+
+[ 2019-11-13T15:37:36+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkcode.html?????
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001533s ]
+
+[ 2019-11-13T15:38:42+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001249s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2019-11-13T15:39:06+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000963s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2019-11-13T15:39:13+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000993s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001179s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2019-11-13T15:39:18+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2019-11-13T15:39:29+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001549s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2019-11-13T15:42:06+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2019-11-13T15:42:11+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000935s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001176s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2019-11-13T15:42:25+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000901s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009654s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001528s ]
+
+[ 2019-11-13T15:42:25+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001288s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001686s ]
+
+[ 2019-11-13T15:42:45+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016757s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016827s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001440s ]
+
+[ 2019-11-13T15:42:45+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001295s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001104s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001172s ]
+
+[ 2019-11-13T15:43:00+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001172s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_admin` [ RunTime:0.0083s ]
+NOTIC: [8] Undefined index: auto D:\web\shop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `wx_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2019-11-13T15:43:01+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001086s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2019-11-13T15:43:01+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001667s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008676s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000705s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000731s ]
+
+[ 2019-11-13T15:43:01+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001014s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001667s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002554s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002639s ]
+
+[ 2019-11-13T15:43:38+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001337s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_admin` [ RunTime:0.0129s ]
+NOTIC: [8] Undefined index: auto D:\web\shop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `wx_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2019-11-13T15:49:05+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001126s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_admin` [ RunTime:0.0166s ]
+NOTIC: [8] Undefined index: auto D:\web\shop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `wx_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2019-11-13T15:49:05+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000950s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2019-11-13T15:49:05+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012650s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012700s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000812s ]
+
+[ 2019-11-13T15:49:05+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000807s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001223s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001446s ]
+
+[ 2019-11-13T15:49:49+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010533s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010584s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001368s ]
+
+[ 2019-11-13T15:49:49+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001911s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001725s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001833s ]
+
+[ 2019-11-13T15:53:18+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001313s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012080s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012119s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000969s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001010s ]
+
+[ 2019-11-13T15:53:18+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000875s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001162s ]
+NOTIC: [2] session_start(): open(D:\phpStudy\PHPTutorial\tmp\tmp\sess_gfk42nr8foco483ted8i3q3no0, O_RDWR) failed: No such file or directory (2) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Failed to read session data: files (path: D:\phpStudy\PHPTutorial\tmp\tmp) D:\web\shop\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001479s ]
+
+[ 2019-11-13T15:53:36+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001214s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002418s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002558s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031698s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032045s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001584s ]
+
+[ 2019-11-13T15:53:36+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000880s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001287s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001258s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001362s ]
+
+[ 2019-11-13T15:53:42+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008755s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000939s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000799s ]
+
+[ 2019-11-13T15:53:42+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000990s ]
+
+[ 2019-11-13T15:53:56+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+SQL: SHOW COLUMNS FROM `wx_admin` [ RunTime:0.0164s ]
+NOTIC: [8] Undefined index: auto D:\web\shop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `wx_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2019-11-13T15:53:56+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0089s ]
+SQL: SELECT `appid`,`appsecret`,`token`,`logo` FROM `wx_config` LIMIT 1   [ RunTime:0.0007s ]
+SQL: select * from wx_privilege [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006772s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000516s ]
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA D:\web\shop\Application\Admin\Model\WeChatModel.class.php 第 223 行.
+
+[ 2019-11-13T15:53:56+08:00 ] 127.0.0.1 /index.php/Admin/Index/info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `wx_config` LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022505s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022637s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001451s ]
+
+[ 2019-11-13T15:54:02+08:00 ] 127.0.0.1 /index.php/Admin/Role/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004880s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Role" and action_name="lst" [ RunTime:0.0005s ]
+NOTIC: [2048] Declaration of Admin\Model\RoleModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\web\shop\Application\Admin\Model\RoleModel.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `wx_role` [ RunTime:0.0127s ]
+NOTIC: [8] Undefined variable: where D:\web\shop\Application\Admin\Model\RoleModel.class.php 第 67 行.
+SQL: SELECT COUNT(*) AS tp_count FROM wx_role a LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where D:\web\shop\Application\Admin\Model\RoleModel.class.php 第 74 行.
+SQL: SELECT a.*,GROUP_CONCAT(c.pri_name) pri_name FROM wx_role a left join wx_role_privilege b on a.id=b.role_id left join wx_privilege c on b.pri_id=c.id  GROUP BY a.id LIMIT 0,2   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008230s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000621s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000662s ]
+
+[ 2019-11-13T15:54:04+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Goods" and action_name="lst" [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0083s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wx_goods a WHERE `is_delete` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT a.*,ifnull(sum(b.goods_number),0) gn FROM wx_goods a left join wx_goods_number b on a.id=b.goods_id  WHERE `is_delete` = 0 GROUP BY a.id LIMIT 0,5   [ RunTime:0.0110s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011456s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011511s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000809s ]
+
+[ 2019-11-13T15:54:08+08:00 ] 127.0.0.1 /index.php/Admin/Type/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Type" and action_name="lst" [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wx_type` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined variable: where D:\web\shop\Application\Admin\Model\TypeModel.class.php 第 41 行.
+SQL: SELECT COUNT(*) AS tp_count FROM wx_type a LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: where D:\web\shop\Application\Admin\Model\TypeModel.class.php 第 47 行.
+SQL: SELECT * FROM wx_type a LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007079s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000688s ]
+
+[ 2019-11-13T15:54:09+08:00 ] 127.0.0.1 /index.php/Admin/Category/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Category" and action_name="lst" [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_category` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `wx_category`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+NOTIC: [8] Undefined variable: page D:\web\shop\Application\Runtime\Cache\Admin\395c0ba78bddab9d6617dcec0f2fd9a9.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007378s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000764s ]
+
+[ 2019-11-13T15:54:10+08:00 ] 127.0.0.1 /index.php/Admin/Goods/recyclelst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000876s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001237s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Goods" and action_name="recyclelst" [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0106s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wx_goods a WHERE `is_delete` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT a.*,ifnull(sum(b.goods_number),0) gn FROM wx_goods a left join wx_goods_number b on a.id=b.goods_id  WHERE `is_delete` = 1 GROUP BY a.id LIMIT 0,5   [ RunTime:0.0064s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000276s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008910s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000974s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001042s ]
+
+[ 2019-11-13T15:54:12+08:00 ] 127.0.0.1 /index.php/Admin/Goods/recyclelst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Goods" and action_name="recyclelst" [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0082s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wx_goods a WHERE `is_delete` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT a.*,ifnull(sum(b.goods_number),0) gn FROM wx_goods a left join wx_goods_number b on a.id=b.goods_id  WHERE `is_delete` = 1 GROUP BY a.id LIMIT 0,5   [ RunTime:0.0067s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009152s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009233s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001125s ]
+
+[ 2019-11-13T15:54:16+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del/id/61.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Goods" and action_name="del" [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0092s ]
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0102s ]
+SQL: SELECT `logo` FROM `wx_goods` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: v D:\web\shop\Application\Admin\Model\GoodsModel.class.php 第 243 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\web\shop\Application\Common\Common\function.php 第 120 行.
+SQL: SHOW COLUMNS FROM `wx_goods_attr` [ RunTime:0.0118s ]
+SQL: DELETE FROM `wx_goods_attr` WHERE `goods_id` = 61 [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wx_goods_pics` [ RunTime:0.0089s ]
+SQL: SELECT `pic`,`sm_pic` FROM `wx_goods_pics` WHERE `goods_id` = 61  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `wx_goods_number` [ RunTime:0.0078s ]
+SQL: DELETE FROM `wx_goods_number` WHERE `goods_id` = 61 [ RunTime:0.0003s ]
+SQL: DELETE FROM `wx_goods_pics` WHERE `goods_id` = 61 [ RunTime:0.0002s ]
+SQL: DELETE FROM `wx_goods` WHERE `id` = 61 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006372s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001028s ]
+
+[ 2019-11-13T15:54:17+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Goods" and action_name="lst" [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0091s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wx_goods a WHERE `is_delete` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT a.*,ifnull(sum(b.goods_number),0) gn FROM wx_goods a left join wx_goods_number b on a.id=b.goods_id  WHERE `is_delete` = 0 GROUP BY a.id LIMIT 0,5   [ RunTime:0.0066s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013062s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001039s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000831s ]
+
+[ 2019-11-13T15:54:20+08:00 ] 127.0.0.1 /index.php/Admin/Order/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Order" and action_name="lst" [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wx_order` [ RunTime:0.0101s ]
+NOTIC: [8] Undefined variable: where D:\web\shop\Application\Admin\Model\OrderModel.class.php 第 140 行.
+SQL: SELECT COUNT(*) AS tp_count FROM wx_order a LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where D:\web\shop\Application\Admin\Model\OrderModel.class.php 第 146 行.
+SQL: SELECT * FROM wx_order a LIMIT 0,5   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined index: goods_name D:\web\shop\Application\Runtime\Cache\Admin\6929b1ce86d5fcc660e84cb37a1b0795.php 第 53 行.
+NOTIC: [8] Undefined index: goods_name D:\web\shop\Application\Runtime\Cache\Admin\6929b1ce86d5fcc660e84cb37a1b0795.php 第 53 行.
+NOTIC: [8] Undefined index: goods_name D:\web\shop\Application\Runtime\Cache\Admin\6929b1ce86d5fcc660e84cb37a1b0795.php 第 53 行.
+NOTIC: [8] Undefined index: goods_name D:\web\shop\Application\Runtime\Cache\Admin\6929b1ce86d5fcc660e84cb37a1b0795.php 第 53 行.
+NOTIC: [8] Undefined index: goods_name D:\web\shop\Application\Runtime\Cache\Admin\6929b1ce86d5fcc660e84cb37a1b0795.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011040s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000759s ]
+
+[ 2019-11-13T15:54:22+08:00 ] 127.0.0.1 /index.php/Admin/Order/yfh.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Order" and action_name="yfh" [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_order` [ RunTime:0.0097s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wx_order a WHERE `post_status` = '1' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM wx_order a WHERE `post_status` = '1' LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007830s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000837s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000866s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000925s ]
+
+[ 2019-11-13T15:54:23+08:00 ] 127.0.0.1 /index.php/Admin/Order/wfh.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Order" and action_name="wfh" [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wx_order` [ RunTime:0.0147s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wx_order a WHERE `post_status` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM wx_order a WHERE `post_status` = '0' LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] Undefined index: goods_name D:\web\shop\Application\Runtime\Cache\Admin\05ee6c830f4b46925857c57d980b0fc1.php 第 53 行.
+NOTIC: [8] Undefined index: goods_name D:\web\shop\Application\Runtime\Cache\Admin\05ee6c830f4b46925857c57d980b0fc1.php 第 53 行.
+NOTIC: [8] Undefined index: goods_name D:\web\shop\Application\Runtime\Cache\Admin\05ee6c830f4b46925857c57d980b0fc1.php 第 53 行.
+NOTIC: [8] Undefined index: goods_name D:\web\shop\Application\Runtime\Cache\Admin\05ee6c830f4b46925857c57d980b0fc1.php 第 53 行.
+NOTIC: [8] Undefined index: goods_name D:\web\shop\Application\Runtime\Cache\Admin\05ee6c830f4b46925857c57d980b0fc1.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007529s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000799s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000845s ]
+
+[ 2019-11-13T15:54:23+08:00 ] 127.0.0.1 /index.php/Admin/Order/yzf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Order" and action_name="yzf" [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_order` [ RunTime:0.0081s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wx_order a WHERE `pay_status` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM wx_order a WHERE `pay_status` = '1' LIMIT 0,5   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined index: goods_name D:\web\shop\Application\Runtime\Cache\Admin\b0e71c7ea32d5881986b694a4db025a5.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000745s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000792s ]
+
+[ 2019-11-13T15:54:24+08:00 ] 127.0.0.1 /index.php/Admin/Goods/recyclelst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Goods" and action_name="recyclelst" [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0079s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wx_goods a WHERE `is_delete` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT a.*,ifnull(sum(b.goods_number),0) gn FROM wx_goods a left join wx_goods_number b on a.id=b.goods_id  WHERE `is_delete` = 1 GROUP BY a.id LIMIT 0,5   [ RunTime:0.0055s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007065s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000648s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000701s ]
+
+[ 2019-11-13T15:54:24+08:00 ] 127.0.0.1 /index.php/Admin/Category/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Category" and action_name="lst" [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wx_category` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `wx_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Undefined variable: page D:\web\shop\Application\Runtime\Cache\Admin\395c0ba78bddab9d6617dcec0f2fd9a9.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007514s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000802s ]
+
+[ 2019-11-13T15:54:25+08:00 ] 127.0.0.1 /index.php/Admin/Type/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Type" and action_name="lst" [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wx_type` [ RunTime:0.0075s ]
+NOTIC: [8] Undefined variable: where D:\web\shop\Application\Admin\Model\TypeModel.class.php 第 41 行.
+SQL: SELECT COUNT(*) AS tp_count FROM wx_type a LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where D:\web\shop\Application\Admin\Model\TypeModel.class.php 第 47 行.
+SQL: SELECT * FROM wx_type a LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007390s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007456s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000751s ]
+
+[ 2019-11-13T15:54:28+08:00 ] 127.0.0.1 /index.php/Admin/Attention/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Attention" and action_name="index" [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wx_attention` [ RunTime:0.0173s ]
+SQL: SELECT * FROM `wx_attention` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006364s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006555s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001112s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001202s ]
+
+[ 2019-11-13T15:54:29+08:00 ] 127.0.0.1 /index.php/Admin/Keyword/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000999s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Keyword" and action_name="lst" [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wx_keyword` [ RunTime:0.0128s ]
+NOTIC: [8] Undefined variable: where D:\web\shop\Application\Admin\Model\KeywordModel.class.php 第 35 行.
+SQL: SELECT COUNT(*) AS tp_count FROM wx_keyword a LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where D:\web\shop\Application\Admin\Model\KeywordModel.class.php 第 42 行.
+SQL: SELECT * FROM wx_keyword a LIMIT 0,2   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012627s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012738s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000686s ]
+
+[ 2019-11-13T15:54:30+08:00 ] 127.0.0.1 /index.php/Admin/Index/info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `wx_config` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006817s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006895s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000693s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000731s ]
+
+[ 2019-11-13T15:54:30+08:00 ] 127.0.0.1 /index.php/Admin/Keyword/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Keyword" and action_name="lst" [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wx_keyword` [ RunTime:0.0076s ]
+NOTIC: [8] Undefined variable: where D:\web\shop\Application\Admin\Model\KeywordModel.class.php 第 35 行.
+SQL: SELECT COUNT(*) AS tp_count FROM wx_keyword a LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where D:\web\shop\Application\Admin\Model\KeywordModel.class.php 第 42 行.
+SQL: SELECT * FROM wx_keyword a LIMIT 0,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006987s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007085s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000907s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000925s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000970s ]
+
+[ 2019-11-13T15:54:30+08:00 ] 127.0.0.1 /index.php/Admin/Attention/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Attention" and action_name="index" [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wx_attention` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `wx_attention` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006056s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000758s ]
+
