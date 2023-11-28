@@ -265,7 +265,8 @@
                 else
                   $old='old_';
             ?>
-                <div class='label' size='6'  style='padding-top: 30px;'><label>商品价格：</label></div><input style='width:5%; margin-top: 25px;' type='text' class='input w50' value="{$v.attr_price}"  name="<?php echo $old;?>attr_price[{$v.attr_id}][{$v.id}]" />
+<!--                <div class='label' size='6'  style='padding-top: 30px;'><label>商品价格：</label></div><input style='width:5%; margin-top: 25px;' type='text' class='input w50' value="{$v.attr_price}"  name="<?php echo $old;?>attr_price[{$v.attr_id}][{$v.id}]" />-->
+<!--           -->
             <?php endif;?>
         </div>
       <?php endforeach;?>
@@ -367,9 +368,9 @@ $("select[name=type_id]").change(function(){
           }
           html += "</select></div>";
         }
-        if(v.attr_type == 1)
-
-        html +="<div class='label' size='6'  style='padding-top: 30px;'><label>商品价格：</label></div><input style='width:5%; margin-top: 25px;' type='text' class='input w50'  name='attr_price["+v.id+"][]' />";
+        // if(v.attr_type == 1)
+        //
+        // html +="<div class='label' size='6'  style='padding-top: 30px;'><label>商品价格：</label></div><input style='width:5%; margin-top: 25px;' type='text' class='input w50'  name='attr_price["+v.id+"][]' />";
 
       html += "</div>";
 

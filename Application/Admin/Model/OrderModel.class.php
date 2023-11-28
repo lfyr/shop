@@ -62,7 +62,7 @@ class OrderModel extends Model
 
 
        	// 启用事务
-        mysql_query('START TRANSACTION');
+        mysqli_query('START TRANSACTION');
     }
 
     protected function _after_insert($data,$option){
@@ -87,7 +87,7 @@ class OrderModel extends Model
             ))->setDec('goods_number',$v['goods_number']);
 
            if($rs === FALSE){
-                mysql_query('ROLLBACK');
+                mysqli_query('ROLLBACK');
                 return FALSE;
             }
 
@@ -101,12 +101,12 @@ class OrderModel extends Model
        			'goods_number'=>$v['goods_number'],
        		));
        		if($rs === FALSE){
-                mysql_query('ROLLBACK');
+                mysqli_query('ROLLBACK');
                 return FALSE;
             }
        	}
 
-       	mysql_query('COMMIT'); // 提交事务
+       	mysqli_query('COMMIT'); // 提交事务
        	//释放锁
        	flock($this->fp,LOCK_UN);
        	fclose($this->fp);

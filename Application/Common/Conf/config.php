@@ -6,10 +6,10 @@ return array(
     'DB_HOST'        => '127.0.0.1',
     'DB_NAME'        => 'app_weixin',
     'DB_USER'        => 'root',
-    'DB_PWD'         => 'root',
+    'DB_PWD'         => '',
     'DB_PREFIX'      => 'wx_',
     'DB_CHARSET'     => 'utf8',
-    'DB_PORT'        => '3306',
+    'DB_PORT'        => '33006',
 
     // 默认参数过滤方法 用于I函数...
     'DEFAULT_FILTER' => 'trim,removeXSS',
@@ -30,5 +30,5 @@ return array(
     'MAIL_LOGINNAME' => 'chaoyi163',
     'MAIL_PASSWORD'  => 'love123',
 
-    'WEB_HOST'       => 'api.com',
+    'WEB_HOST'       => '127.0.0.1',
 );

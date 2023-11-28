@@ -190,7 +190,16 @@
         </div>
       </div>
     </div>
-  
+
+<!--        &lt;!&ndash; 商品规格 &ndash;&gt;-->
+<!--    <div class='tab' style="display:none">-->
+<!--        <div class="form-group">-->
+<!--            <div class="field">-->
+<!--                <input type="button" onclick="$(this).parent().parent().parent().append('<div class=\'form-group\'><div class=\'field\'><input type=\'file\'  id=\'pics\' name=\'pics[]\' value=\'+ 浏览上传\' class=\'color\' /></div></div>');" class="button bg-blue margin-left" id="image" value="点击添加图片" />-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+
     <div class="form-group" style="display:block;">
       <div class="label">
         <label></label>
@@ -264,15 +273,15 @@ $("select[name=type_id]").change(function(){
           }
           html += "</select></div>";
         }
-        if(v.attr_type == 1)
+        // if(v.attr_type == 1)
+          //html +="<div class='label' size='6'  style='padding-top: 30px;'><label>商品价格：</label></div><input style='width:5%; margin-top: 25px;' type='text' class='input w50'  name='attr_price["+v.id+"][]' />";
 
-        html +="<div class='label' size='6'  style='padding-top: 30px;'><label>商品价格：</label></div><input style='width:5%; margin-top: 25px;' type='text' class='input w50'  name='attr_price["+v.id+"][]' />";
 
       html += "</div>";
 
       });
-      
-         $("#attr_container").html(html);
+
+        $("#attr_container").html(html);
        
          
     }

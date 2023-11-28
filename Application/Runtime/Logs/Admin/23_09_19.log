@@ -1,0 +1,1074 @@
+[ 2023-09-19T16:33:58+08:00 ] 127.0.0.1 /index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+
+[ 2023-09-19T16:33:58+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000043s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002669s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002690s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000021s ]
+
+[ 2023-09-19T16:33:58+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000075s ]
+
+[ 2023-09-19T16:34:04+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkcode.html?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000037s ]
+
+[ 2023-09-19T16:34:05+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkcode.html??
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000100s ]
+
+[ 2023-09-19T16:34:06+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkcode.html???
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000034s ]
+
+[ 2023-09-19T16:34:12+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000031s ]
+SQL: SHOW COLUMNS FROM `wx_admin` [ RunTime:0.0394s ]
+NOTIC: [2] Undefined array key "auto" /Users/kaoyaya/php/shop/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT * FROM `wx_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0386s ]
+
+[ 2023-09-19T16:34:12+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000019s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000018s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0459s ]
+SQL: SELECT `appid`,`appsecret`,`token`,`logo` FROM `wx_config` LIMIT 1   [ RunTime:0.0471s ]
+SQL: select * from wx_privilege [ RunTime:0.0465s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000055s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003366s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000034s ]
+NOTIC: [2] Undefined array key "HTTP_RAW_POST_DATA" /Users/kaoyaya/php/shop/Application/Admin/Model/WeChatModel.class.php 第 223 行.
+
+[ 2023-09-19T16:34:12+08:00 ] 127.0.0.1 /index.php/Admin/Index/info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000023s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0395s ]
+SQL: SELECT * FROM `wx_config` LIMIT 1   [ RunTime:0.0402s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003755s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000044s ]
+
+[ 2023-09-19T16:34:22+08:00 ] 127.0.0.1 /index.php/Admin/Index/info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000031s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0409s ]
+NOTIC: [2] Undefined array key "validate" /Users/kaoyaya/php/shop/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [2] Undefined array key "auto" /Users/kaoyaya/php/shop/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `wx_config` SET `title`='天涯测试公众号',`logo`='/Public/Admin/images/20150616111750118.jpg',`appid`='wxa8a66b288f3663d1',`appsecret`='bef24ab390798b510912273b29c08667',`token`='lfyr',`keyword`='微信推广',`description`='一站式管理',`contacts`='天涯',`tel`='18510338936',`qq`='9796258825',`email`='9796258825@qq.com',`address`='北京市昌平区回龙观',`footerinfo`='冷风毅然&amp;版权所有' WHERE `id` = 1 [ RunTime:0.0389s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002244s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002270s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000058s ]
+
+[ 2023-09-19T16:34:23+08:00 ] 127.0.0.1 /index.php/Admin/Index/info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000023s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0411s ]
+SQL: SELECT * FROM `wx_config` LIMIT 1   [ RunTime:0.2298s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004068s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004097s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000055s ]
+
+[ 2023-09-19T16:34:25+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Goods" and action_name="lst" [ RunTime:0.0396s ]
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0426s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wx_goods a WHERE `is_delete` = 0 LIMIT 1   [ RunTime:0.5234s ]
+SQL: SELECT a.*,ifnull(sum(b.goods_number),0) gn FROM wx_goods a left join wx_goods_number b on a.id=b.goods_id  WHERE `is_delete` = 0 GROUP BY a.id LIMIT 0,5   [ RunTime:0.0445s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003951s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000045s ]
+
+[ 2023-09-19T16:34:26+08:00 ] 127.0.0.1 /index.php/Admin/Type/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Type" and action_name="lst" [ RunTime:0.0388s ]
+SQL: SHOW COLUMNS FROM `wx_type` [ RunTime:0.0403s ]
+NOTIC: [2] Undefined variable $where /Users/kaoyaya/php/shop/Application/Admin/Model/TypeModel.class.php 第 41 行.
+SQL: SELECT COUNT(*) AS tp_count FROM wx_type a LIMIT 1   [ RunTime:0.0384s ]
+NOTIC: [2] Undefined variable $where /Users/kaoyaya/php/shop/Application/Admin/Model/TypeModel.class.php 第 47 行.
+SQL: SELECT * FROM wx_type a LIMIT 0,5   [ RunTime:0.0379s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003044s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000057s ]
+
+[ 2023-09-19T16:34:27+08:00 ] 127.0.0.1 /index.php/Admin/Category/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000030s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Category" and action_name="lst" [ RunTime:0.0422s ]
+SQL: SHOW COLUMNS FROM `wx_category` [ RunTime:0.0444s ]
+SQL: SELECT * FROM `wx_category`  [ RunTime:0.0457s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+NOTIC: [2] Undefined variable $page /Users/kaoyaya/php/shop/Application/Runtime/Cache/Admin/395c0ba78bddab9d6617dcec0f2fd9a9.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002198s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002213s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000022s ]
+
+[ 2023-09-19T16:34:29+08:00 ] 127.0.0.1 /index.php/Admin/Goods/recyclelst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Goods" and action_name="recyclelst" [ RunTime:0.0394s ]
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0414s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wx_goods a WHERE `is_delete` = 1 LIMIT 1   [ RunTime:0.0407s ]
+SQL: SELECT a.*,ifnull(sum(b.goods_number),0) gn FROM wx_goods a left join wx_goods_number b on a.id=b.goods_id  WHERE `is_delete` = 1 GROUP BY a.id LIMIT 0,5   [ RunTime:0.0432s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002410s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000026s ]
+
+[ 2023-09-19T16:34:31+08:00 ] 127.0.0.1 /index.php/Admin/Brand/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000030s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Brand" and action_name="lst" [ RunTime:0.0392s ]
+SQL: SHOW COLUMNS FROM `wx_brand` [ RunTime:0.0436s ]
+NOTIC: [2] Undefined variable $where /Users/kaoyaya/php/shop/Application/Admin/Model/BrandModel.class.php 第 72 行.
+SQL: SELECT COUNT(*) AS tp_count FROM wx_brand a LIMIT 1   [ RunTime:0.0404s ]
+NOTIC: [2] Undefined variable $where /Users/kaoyaya/php/shop/Application/Admin/Model/BrandModel.class.php 第 79 行.
+SQL: SELECT * FROM `wx_brand` LIMIT 0,5   [ RunTime:0.2231s ]
+NOTIC: [2] Undefined variable $page /Users/kaoyaya/php/shop/Application/Admin/Controller/BrandController.class.php 第 30 行.
+NOTIC: [2] Trying to access array offset on value of type null /Users/kaoyaya/php/shop/Application/Admin/Controller/BrandController.class.php 第 30 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003040s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003062s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000032s ]
+
+[ 2023-09-19T16:34:32+08:00 ] 127.0.0.1 /index.php/Admin/Brand/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000024s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Brand" and action_name="lst" [ RunTime:0.0411s ]
+SQL: SHOW COLUMNS FROM `wx_brand` [ RunTime:0.0418s ]
+NOTIC: [2] Undefined variable $where /Users/kaoyaya/php/shop/Application/Admin/Model/BrandModel.class.php 第 72 行.
+SQL: SELECT COUNT(*) AS tp_count FROM wx_brand a LIMIT 1   [ RunTime:0.0398s ]
+NOTIC: [2] Undefined variable $where /Users/kaoyaya/php/shop/Application/Admin/Model/BrandModel.class.php 第 79 行.
+SQL: SELECT * FROM `wx_brand` LIMIT 0,5   [ RunTime:0.0405s ]
+NOTIC: [2] Undefined variable $page /Users/kaoyaya/php/shop/Application/Admin/Controller/BrandController.class.php 第 30 行.
+NOTIC: [2] Trying to access array offset on value of type null /Users/kaoyaya/php/shop/Application/Admin/Controller/BrandController.class.php 第 30 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003238s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003270s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000060s ]
+
+[ 2023-09-19T16:34:34+08:00 ] 127.0.0.1 /index.php/Admin/Goods/recyclelst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000031s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Goods" and action_name="recyclelst" [ RunTime:0.0397s ]
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0404s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wx_goods a WHERE `is_delete` = 1 LIMIT 1   [ RunTime:0.0412s ]
+SQL: SELECT a.*,ifnull(sum(b.goods_number),0) gn FROM wx_goods a left join wx_goods_number b on a.id=b.goods_id  WHERE `is_delete` = 1 GROUP BY a.id LIMIT 0,5   [ RunTime:0.0405s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003499s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000041s ]
+
+[ 2023-09-19T16:34:35+08:00 ] 127.0.0.1 /index.php/Admin/Category/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000024s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Category" and action_name="lst" [ RunTime:0.0402s ]
+SQL: SHOW COLUMNS FROM `wx_category` [ RunTime:0.0415s ]
+SQL: SELECT * FROM `wx_category`  [ RunTime:0.0398s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+NOTIC: [2] Undefined variable $page /Users/kaoyaya/php/shop/Application/Runtime/Cache/Admin/395c0ba78bddab9d6617dcec0f2fd9a9.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002142s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002157s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000027s ]
+
+[ 2023-09-19T16:34:37+08:00 ] 127.0.0.1 /index.php/Admin/Order/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000032s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Order" and action_name="lst" [ RunTime:0.0399s ]
+SQL: SHOW COLUMNS FROM `wx_order` [ RunTime:0.0403s ]
+NOTIC: [2] Undefined variable $where /Users/kaoyaya/php/shop/Application/Admin/Model/OrderModel.class.php 第 140 行.
+SQL: SELECT COUNT(*) AS tp_count FROM wx_order a LIMIT 1   [ RunTime:0.0430s ]
+NOTIC: [2] Undefined variable $where /Users/kaoyaya/php/shop/Application/Admin/Model/OrderModel.class.php 第 146 行.
+SQL: SELECT * FROM wx_order a LIMIT 0,5   [ RunTime:0.0412s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+NOTIC: [2] Undefined array key "goods_name" /Users/kaoyaya/php/shop/Application/Runtime/Cache/Admin/6929b1ce86d5fcc660e84cb37a1b0795.php 第 53 行.
+NOTIC: [2] Undefined array key "goods_name" /Users/kaoyaya/php/shop/Application/Runtime/Cache/Admin/6929b1ce86d5fcc660e84cb37a1b0795.php 第 53 行.
+NOTIC: [2] Undefined array key "goods_name" /Users/kaoyaya/php/shop/Application/Runtime/Cache/Admin/6929b1ce86d5fcc660e84cb37a1b0795.php 第 53 行.
+NOTIC: [2] Undefined array key "goods_name" /Users/kaoyaya/php/shop/Application/Runtime/Cache/Admin/6929b1ce86d5fcc660e84cb37a1b0795.php 第 53 行.
+NOTIC: [2] Undefined array key "goods_name" /Users/kaoyaya/php/shop/Application/Runtime/Cache/Admin/6929b1ce86d5fcc660e84cb37a1b0795.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006889s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006913s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000081s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000109s ]
+
+[ 2023-09-19T16:34:40+08:00 ] 127.0.0.1 /index.php/Admin/Order/yfh.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000032s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Order" and action_name="yfh" [ RunTime:0.0393s ]
+SQL: SHOW COLUMNS FROM `wx_order` [ RunTime:0.0422s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wx_order a WHERE `post_status` = '1' LIMIT 1   [ RunTime:0.0406s ]
+SQL: SELECT * FROM wx_order a WHERE `post_status` = '1' LIMIT 0,5   [ RunTime:0.0415s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003522s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000032s ]
+
+[ 2023-09-19T16:34:42+08:00 ] 127.0.0.1 /index.php/Admin/Order/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Order" and action_name="lst" [ RunTime:0.0390s ]
+SQL: SHOW COLUMNS FROM `wx_order` [ RunTime:0.0407s ]
+NOTIC: [2] Undefined variable $where /Users/kaoyaya/php/shop/Application/Admin/Model/OrderModel.class.php 第 140 行.
+SQL: SELECT COUNT(*) AS tp_count FROM wx_order a LIMIT 1   [ RunTime:0.2195s ]
+NOTIC: [2] Undefined variable $where /Users/kaoyaya/php/shop/Application/Admin/Model/OrderModel.class.php 第 146 行.
+SQL: SELECT * FROM wx_order a LIMIT 0,5   [ RunTime:0.0394s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [2] Undefined array key "goods_name" /Users/kaoyaya/php/shop/Application/Runtime/Cache/Admin/6929b1ce86d5fcc660e84cb37a1b0795.php 第 53 行.
+NOTIC: [2] Undefined array key "goods_name" /Users/kaoyaya/php/shop/Application/Runtime/Cache/Admin/6929b1ce86d5fcc660e84cb37a1b0795.php 第 53 行.
+NOTIC: [2] Undefined array key "goods_name" /Users/kaoyaya/php/shop/Application/Runtime/Cache/Admin/6929b1ce86d5fcc660e84cb37a1b0795.php 第 53 行.
+NOTIC: [2] Undefined array key "goods_name" /Users/kaoyaya/php/shop/Application/Runtime/Cache/Admin/6929b1ce86d5fcc660e84cb37a1b0795.php 第 53 行.
+NOTIC: [2] Undefined array key "goods_name" /Users/kaoyaya/php/shop/Application/Runtime/Cache/Admin/6929b1ce86d5fcc660e84cb37a1b0795.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003608s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003635s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000052s ]
+
+[ 2023-09-19T16:34:44+08:00 ] 127.0.0.1 /index.php/Admin/Order/wfh.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000029s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Order" and action_name="wfh" [ RunTime:0.0439s ]
+SQL: SHOW COLUMNS FROM `wx_order` [ RunTime:0.0434s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wx_order a WHERE `post_status` = '0' LIMIT 1   [ RunTime:0.0411s ]
+SQL: SELECT * FROM wx_order a WHERE `post_status` = '0' LIMIT 0,5   [ RunTime:0.0463s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+NOTIC: [2] Undefined array key "goods_name" /Users/kaoyaya/php/shop/Application/Runtime/Cache/Admin/05ee6c830f4b46925857c57d980b0fc1.php 第 53 行.
+NOTIC: [2] Undefined array key "goods_name" /Users/kaoyaya/php/shop/Application/Runtime/Cache/Admin/05ee6c830f4b46925857c57d980b0fc1.php 第 53 行.
+NOTIC: [2] Undefined array key "goods_name" /Users/kaoyaya/php/shop/Application/Runtime/Cache/Admin/05ee6c830f4b46925857c57d980b0fc1.php 第 53 行.
+NOTIC: [2] Undefined array key "goods_name" /Users/kaoyaya/php/shop/Application/Runtime/Cache/Admin/05ee6c830f4b46925857c57d980b0fc1.php 第 53 行.
+NOTIC: [2] Undefined array key "goods_name" /Users/kaoyaya/php/shop/Application/Runtime/Cache/Admin/05ee6c830f4b46925857c57d980b0fc1.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002886s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002905s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000032s ]
+
+[ 2023-09-19T16:34:44+08:00 ] 127.0.0.1 /index.php/Admin/Order/yzf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Order" and action_name="yzf" [ RunTime:0.0419s ]
+SQL: SHOW COLUMNS FROM `wx_order` [ RunTime:0.0432s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wx_order a WHERE `pay_status` = '1' LIMIT 1   [ RunTime:0.0425s ]
+SQL: SELECT * FROM wx_order a WHERE `pay_status` = '1' LIMIT 0,5   [ RunTime:0.0417s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+NOTIC: [2] Undefined array key "goods_name" /Users/kaoyaya/php/shop/Application/Runtime/Cache/Admin/b0e71c7ea32d5881986b694a4db025a5.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003596s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003616s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000036s ]
+
+[ 2023-09-19T16:34:48+08:00 ] 127.0.0.1 /index.php/Admin/Order/wzf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Order" and action_name="wzf" [ RunTime:0.0412s ]
+SQL: SHOW COLUMNS FROM `wx_order` [ RunTime:0.0399s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wx_order a WHERE `pay_status` = '0' LIMIT 1   [ RunTime:0.0403s ]
+SQL: SELECT * FROM wx_order a WHERE `pay_status` = '0' LIMIT 0,5   [ RunTime:0.0414s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+NOTIC: [2] Undefined array key "goods_name" /Users/kaoyaya/php/shop/Application/Runtime/Cache/Admin/abd8ea0c20621efd27fa5fa63ce1b444.php 第 53 行.
+NOTIC: [2] Undefined array key "goods_name" /Users/kaoyaya/php/shop/Application/Runtime/Cache/Admin/abd8ea0c20621efd27fa5fa63ce1b444.php 第 53 行.
+NOTIC: [2] Undefined array key "goods_name" /Users/kaoyaya/php/shop/Application/Runtime/Cache/Admin/abd8ea0c20621efd27fa5fa63ce1b444.php 第 53 行.
+NOTIC: [2] Undefined array key "goods_name" /Users/kaoyaya/php/shop/Application/Runtime/Cache/Admin/abd8ea0c20621efd27fa5fa63ce1b444.php 第 53 行.
+NOTIC: [2] Undefined array key "goods_name" /Users/kaoyaya/php/shop/Application/Runtime/Cache/Admin/abd8ea0c20621efd27fa5fa63ce1b444.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004627s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004653s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000055s ]
+
+[ 2023-09-19T16:34:53+08:00 ] 127.0.0.1 /index.php/Admin/Order/yfh.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000030s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Order" and action_name="yfh" [ RunTime:0.0406s ]
+SQL: SHOW COLUMNS FROM `wx_order` [ RunTime:0.0419s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wx_order a WHERE `post_status` = '1' LIMIT 1   [ RunTime:0.2247s ]
+SQL: SELECT * FROM wx_order a WHERE `post_status` = '1' LIMIT 0,5   [ RunTime:0.0421s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003307s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003320s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000028s ]
+
+[ 2023-09-19T16:34:54+08:00 ] 127.0.0.1 /index.php/Admin/Order/wfh.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000037s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Order" and action_name="wfh" [ RunTime:0.0409s ]
+SQL: SHOW COLUMNS FROM `wx_order` [ RunTime:0.0421s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wx_order a WHERE `post_status` = '0' LIMIT 1   [ RunTime:0.0414s ]
+SQL: SELECT * FROM wx_order a WHERE `post_status` = '0' LIMIT 0,5   [ RunTime:0.0418s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000045s ]
+NOTIC: [2] Undefined array key "goods_name" /Users/kaoyaya/php/shop/Application/Runtime/Cache/Admin/05ee6c830f4b46925857c57d980b0fc1.php 第 53 行.
+NOTIC: [2] Undefined array key "goods_name" /Users/kaoyaya/php/shop/Application/Runtime/Cache/Admin/05ee6c830f4b46925857c57d980b0fc1.php 第 53 行.
+NOTIC: [2] Undefined array key "goods_name" /Users/kaoyaya/php/shop/Application/Runtime/Cache/Admin/05ee6c830f4b46925857c57d980b0fc1.php 第 53 行.
+NOTIC: [2] Undefined array key "goods_name" /Users/kaoyaya/php/shop/Application/Runtime/Cache/Admin/05ee6c830f4b46925857c57d980b0fc1.php 第 53 行.
+NOTIC: [2] Undefined array key "goods_name" /Users/kaoyaya/php/shop/Application/Runtime/Cache/Admin/05ee6c830f4b46925857c57d980b0fc1.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001966s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000023s ]
+
+[ 2023-09-19T16:34:54+08:00 ] 127.0.0.1 /index.php/Admin/Category/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000023s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Category" and action_name="lst" [ RunTime:0.0412s ]
+SQL: SHOW COLUMNS FROM `wx_category` [ RunTime:0.0411s ]
+SQL: SELECT * FROM `wx_category`  [ RunTime:0.0390s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+NOTIC: [2] Undefined variable $page /Users/kaoyaya/php/shop/Application/Runtime/Cache/Admin/395c0ba78bddab9d6617dcec0f2fd9a9.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002997s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000018s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000028s ]
+
+[ 2023-09-19T16:34:56+08:00 ] 127.0.0.1 /index.php/Admin/Type/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000023s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Type" and action_name="lst" [ RunTime:0.0404s ]
+SQL: SHOW COLUMNS FROM `wx_type` [ RunTime:0.0440s ]
+NOTIC: [2] Undefined variable $where /Users/kaoyaya/php/shop/Application/Admin/Model/TypeModel.class.php 第 41 行.
+SQL: SELECT COUNT(*) AS tp_count FROM wx_type a LIMIT 1   [ RunTime:0.0397s ]
+NOTIC: [2] Undefined variable $where /Users/kaoyaya/php/shop/Application/Admin/Model/TypeModel.class.php 第 47 行.
+SQL: SELECT * FROM wx_type a LIMIT 0,5   [ RunTime:0.0402s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003379s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003407s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000039s ]
+
+[ 2023-09-19T16:34:57+08:00 ] 127.0.0.1 /index.php/Admin/Index/delete_dir.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+NOTIC: [2] opendir(./Application/Html): Failed to open directory: No such file or directory /Users/kaoyaya/php/shop/Application/Common/Common/function.php 第 139 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000019s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000044s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005883s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005893s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000027s ]
+
+[ 2023-09-19T16:35:06+08:00 ] 127.0.0.1 /index.php/Admin/Attention/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000028s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Attention" and action_name="index" [ RunTime:0.0421s ]
+SQL: SHOW COLUMNS FROM `wx_attention` [ RunTime:0.0416s ]
+SQL: SELECT * FROM `wx_attention` LIMIT 1   [ RunTime:0.0427s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003483s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003510s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000053s ]
+
+[ 2023-09-19T16:35:07+08:00 ] 127.0.0.1 /index.php/Admin/Keyword/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000024s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Keyword" and action_name="lst" [ RunTime:0.0427s ]
+SQL: SHOW COLUMNS FROM `wx_keyword` [ RunTime:0.0439s ]
+NOTIC: [2] Undefined variable $where /Users/kaoyaya/php/shop/Application/Admin/Model/KeywordModel.class.php 第 35 行.
+SQL: SELECT COUNT(*) AS tp_count FROM wx_keyword a LIMIT 1   [ RunTime:0.0424s ]
+NOTIC: [2] Undefined variable $where /Users/kaoyaya/php/shop/Application/Admin/Model/KeywordModel.class.php 第 42 行.
+SQL: SELECT * FROM wx_keyword a LIMIT 0,2   [ RunTime:0.0433s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002332s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000032s ]
+
+[ 2023-09-19T16:35:09+08:00 ] 127.0.0.1 /index.php/Admin/Index/info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000035s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0467s ]
+SQL: SELECT * FROM `wx_config` LIMIT 1   [ RunTime:0.0410s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004874s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000050s ]
+
+[ 2023-09-19T16:35:11+08:00 ] 127.0.0.1 /index.php/Admin/Keyword/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000023s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Keyword" and action_name="lst" [ RunTime:0.0407s ]
+SQL: SHOW COLUMNS FROM `wx_keyword` [ RunTime:0.0405s ]
+NOTIC: [2] Undefined variable $where /Users/kaoyaya/php/shop/Application/Admin/Model/KeywordModel.class.php 第 35 行.
+SQL: SELECT COUNT(*) AS tp_count FROM wx_keyword a LIMIT 1   [ RunTime:0.5553s ]
+NOTIC: [2] Undefined variable $where /Users/kaoyaya/php/shop/Application/Admin/Model/KeywordModel.class.php 第 42 行.
+SQL: SELECT * FROM wx_keyword a LIMIT 0,2   [ RunTime:0.0398s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001905s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001923s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000061s ]
+
+[ 2023-09-19T16:35:14+08:00 ] 127.0.0.1 /index.php/Admin/Keyword/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000031s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Keyword" and action_name="add" [ RunTime:0.0391s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002445s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002458s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000032s ]
+
+[ 2023-09-19T16:35:14+08:00 ] 127.0.0.1 /index.php/Admin/Keyword/js/laydate/laydate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000024s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Keyword" and action_name="js" [ RunTime:0.0408s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000041s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001617s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000032s ]
+
+[ 2023-09-19T16:35:18+08:00 ] 127.0.0.1 /index.php/Admin/Keyword/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000029s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Keyword" and action_name="lst" [ RunTime:0.0473s ]
+SQL: SHOW COLUMNS FROM `wx_keyword` [ RunTime:0.0432s ]
+NOTIC: [2] Undefined variable $where /Users/kaoyaya/php/shop/Application/Admin/Model/KeywordModel.class.php 第 35 行.
+SQL: SELECT COUNT(*) AS tp_count FROM wx_keyword a LIMIT 1   [ RunTime:0.0422s ]
+NOTIC: [2] Undefined variable $where /Users/kaoyaya/php/shop/Application/Admin/Model/KeywordModel.class.php 第 42 行.
+SQL: SELECT * FROM wx_keyword a LIMIT 0,2   [ RunTime:0.0421s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003345s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003365s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000040s ]
+
+[ 2023-09-19T16:35:20+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000028s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Goods" and action_name="lst" [ RunTime:0.0521s ]
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0442s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wx_goods a WHERE `is_delete` = 0 LIMIT 1   [ RunTime:0.0428s ]
+SQL: SELECT a.*,ifnull(sum(b.goods_number),0) gn FROM wx_goods a left join wx_goods_number b on a.id=b.goods_id  WHERE `is_delete` = 0 GROUP BY a.id LIMIT 0,5   [ RunTime:0.0439s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003425s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000043s ]
+
+[ 2023-09-19T16:35:21+08:00 ] 127.0.0.1 /index.php/Admin/Type/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000023s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Type" and action_name="lst" [ RunTime:0.0395s ]
+SQL: SHOW COLUMNS FROM `wx_type` [ RunTime:0.0438s ]
+NOTIC: [2] Undefined variable $where /Users/kaoyaya/php/shop/Application/Admin/Model/TypeModel.class.php 第 41 行.
+SQL: SELECT COUNT(*) AS tp_count FROM wx_type a LIMIT 1   [ RunTime:0.0397s ]
+NOTIC: [2] Undefined variable $where /Users/kaoyaya/php/shop/Application/Admin/Model/TypeModel.class.php 第 47 行.
+SQL: SELECT * FROM wx_type a LIMIT 0,5   [ RunTime:0.0436s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002408s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002423s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000024s ]
+
+[ 2023-09-19T16:35:21+08:00 ] 127.0.0.1 /index.php/Admin/Category/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000032s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Category" and action_name="lst" [ RunTime:0.0393s ]
+SQL: SHOW COLUMNS FROM `wx_category` [ RunTime:0.0414s ]
+SQL: SELECT * FROM `wx_category`  [ RunTime:0.0398s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000043s ]
+NOTIC: [2] Undefined variable $page /Users/kaoyaya/php/shop/Application/Runtime/Cache/Admin/395c0ba78bddab9d6617dcec0f2fd9a9.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001832s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000044s ]
+
+[ 2023-09-19T17:08:29+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Goods" and action_name="lst" [ RunTime:0.0401s ]
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0399s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wx_goods a WHERE `is_delete` = 0 LIMIT 1   [ RunTime:0.0384s ]
+SQL: SELECT a.*,ifnull(sum(b.goods_number),0) gn FROM wx_goods a left join wx_goods_number b on a.id=b.goods_id  WHERE `is_delete` = 0 GROUP BY a.id LIMIT 0,5   [ RunTime:0.0408s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003799s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003815s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000621s ]
+
+[ 2023-09-19T17:08:35+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/44/goods_name/%E4%B8%89%E6%98%9F+Galaxy+S7%EF%BC%88G9300%EF%BC%894GB+32G+%E9%93%82%E5%85%89%E9%87%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000039s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Goods" and action_name="goods_number" [ RunTime:0.0454s ]
+SQL: SELECT a.*,b.attr_name FROM wx_goods_attr a LEFT JOIN wx_attribute b on a.attr_id=b.id WHERE attr_id IN (SELECT attr_id FROM wx_goods_attr WHERE goods_id=44 GROUP BY attr_id HAVING count(*)>1)  AND a.goods_id=44 [ RunTime:0.0555s ]
+SQL: SHOW COLUMNS FROM `wx_goods_number` [ RunTime:0.0430s ]
+SQL: SELECT * FROM `wx_goods_number` WHERE `goods_id` = '44'  [ RunTime:0.0427s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005496s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005527s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000071s ]
+
+[ 2023-09-19T17:08:39+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000117s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Goods" and action_name="lst" [ RunTime:0.0431s ]
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0394s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wx_goods a WHERE `is_delete` = 0 LIMIT 1   [ RunTime:0.0399s ]
+SQL: SELECT a.*,ifnull(sum(b.goods_number),0) gn FROM wx_goods a left join wx_goods_number b on a.id=b.goods_id  WHERE `is_delete` = 0 GROUP BY a.id LIMIT 0,5   [ RunTime:0.0410s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003676s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003701s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000102s ]
+
+[ 2023-09-19T17:08:40+08:00 ] 127.0.0.1 /index.php/Admin/Type/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000024s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Type" and action_name="lst" [ RunTime:0.0382s ]
+SQL: SHOW COLUMNS FROM `wx_type` [ RunTime:0.0376s ]
+NOTIC: [2] Undefined variable $where /Users/kaoyaya/php/shop/Application/Admin/Model/TypeModel.class.php 第 41 行.
+SQL: SELECT COUNT(*) AS tp_count FROM wx_type a LIMIT 1   [ RunTime:0.0385s ]
+NOTIC: [2] Undefined variable $where /Users/kaoyaya/php/shop/Application/Admin/Model/TypeModel.class.php 第 47 行.
+SQL: SELECT * FROM wx_type a LIMIT 0,5   [ RunTime:0.0389s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004567s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000048s ]
+
+[ 2023-09-19T17:08:44+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/lst/type_id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000028s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Attribute" and action_name="lst" [ RunTime:0.0380s ]
+SQL: SHOW COLUMNS FROM `wx_attribute` [ RunTime:0.0396s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wx_attribute a WHERE `type_id` = '5' LIMIT 1   [ RunTime:0.0388s ]
+SQL: SELECT * FROM wx_attribute a WHERE `type_id` = '5' LIMIT 0,5   [ RunTime:0.0405s ]
+SQL: SHOW COLUMNS FROM `wx_type` [ RunTime:0.0381s ]
+SQL: SELECT * FROM `wx_type`  [ RunTime:0.0381s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+NOTIC: [2] Undefined variable $v /Users/kaoyaya/php/shop/Application/Runtime/Cache/Admin/d12b6d6cfaa93439758dd8f98ee55ea0.php 第 21 行.
+NOTIC: [2] Trying to access array offset on value of type null /Users/kaoyaya/php/shop/Application/Runtime/Cache/Admin/d12b6d6cfaa93439758dd8f98ee55ea0.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004448s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004473s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000047s ]
+
+[ 2023-09-19T17:08:46+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000028s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Goods" and action_name="lst" [ RunTime:0.0395s ]
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0392s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wx_goods a WHERE `is_delete` = 0 LIMIT 1   [ RunTime:0.0379s ]
+SQL: SELECT a.*,ifnull(sum(b.goods_number),0) gn FROM wx_goods a left join wx_goods_number b on a.id=b.goods_id  WHERE `is_delete` = 0 GROUP BY a.id LIMIT 0,5   [ RunTime:0.0451s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003496s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003526s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000051s ]
+
+[ 2023-09-19T17:08:48+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+SQL: select count(*) has from wx_privilege where module_name="Admin" and controller_name="Goods" and action_name="add" [ RunTime:0.0427s ]
+SQL: SHOW COLUMNS FROM `wx_category` [ RunTime:0.0423s ]
+SQL: SELECT * FROM `wx_category`  [ RunTime:0.0439s ]
+SQL: SHOW COLUMNS FROM `wx_brand` [ RunTime:0.0514s ]
+SQL: SELECT * FROM `wx_brand`  [ RunTime:0.0449s ]
+SQL: SHOW COLUMNS FROM `wx_type` [ RunTime:0.0455s ]
+SQL: SELECT * FROM `wx_type`  [ RunTime:0.0420s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004147s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000054s ]
+
